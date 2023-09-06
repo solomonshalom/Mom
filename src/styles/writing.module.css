@@ -23,6 +23,7 @@
 
 .posts {
   margin-left: 50px;
+  margin-bottom: 81px;
 }
 
 .posts:hover .post:not(:hover) {

@@ -1,3 +1,7 @@
+# Mom
+
+Made this for my beautiful Mom <3 (Coming soon, Dad!)
+
 
 ## Quickstart
 
@@ -26,4 +30,4 @@ Server should now be running on [localhost](https://localhost:3000)
 
 ## Credits
 
-Based on www
+Based on [WWW](https://github.com/harshhhdev/harshhhdev.github.io)
