@@ -13,7 +13,7 @@ import { rgbDataURL } from '../MDX'
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN
 
 // Not my actual location, obviously
-const center: mapboxgl.LngLatLike = [12.972442, 77.580643]
+const center: mapboxgl.LngLatLike = [77.580643, 12.972442]
 
 const About: FC = () => (
   <div className={styles.box}>
@@ -150,11 +150,11 @@ const Map: FC = () => {
         <p className={styles.town}>
           <FiMapPin />
           <a
-            href='https://en.wikipedia.org/wiki/Forney,_Texas'
+            href='https://en.wikipedia.org/wiki/Karnataka'
             target='_blank'
             rel='noreferrer'
           >
-            Forney, Texas
+            Karnataka, India
           </a>
         </p>
       </div>

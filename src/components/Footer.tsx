@@ -30,7 +30,6 @@ const Footer: FC = () => {
 
   const [time, setTime] = useState<Date>(new Date())
   const [mounted, setMounted] = useState(false)
-  const { data } = useSWR<Root>('/api/music', fetcher, config)
 
   useEffect(() => {
     setMounted(true)
@@ -84,7 +83,6 @@ const Footer: FC = () => {
               })}
         </p>
         <div>
-          <div className={styles.music}>
             <div
               className={clsx(
                 styles.line,
@@ -118,7 +116,6 @@ const Footer: FC = () => {
             </p>
           </div>
         </div>
-      </div>
     </footer>
   )
 }
