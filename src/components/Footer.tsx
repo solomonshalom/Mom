@@ -17,7 +17,7 @@ type Song = {
 
 const config: SWRConfiguration = {
   fallbackData: {
-    song: { title: 'Offline', link: '#' },
+    song: { title: 'Mercy', link: '#' },
   },
   revalidateOnMount: false,
 }
