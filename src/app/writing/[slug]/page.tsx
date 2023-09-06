@@ -26,6 +26,7 @@ export const generateMetadata: GenerateMetadata = ({ params }) => {
   if (!post) return defaultMetadata
 
   const { title, published: publishedTime, description, slug } = post
+  const image = `#/api/image?title=${encodeURI(title)}`
 
   return {
     title,
