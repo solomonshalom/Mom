@@ -13,14 +13,14 @@ import { rgbDataURL } from '../MDX'
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN
 
 // Not my actual location, obviously
-const center: mapboxgl.LngLatLike = [-96.438055, 32.782434]
+const center: mapboxgl.LngLatLike = [12.972442, 77.580643]
 
 const About: FC = () => (
   <div className={styles.box}>
     <div className={styles.container}>
       <div className={styles.image}>
         <Image
-          src='/headshot-crop.jpg'
+          src='/mom_avater.jpg'
           alt='My face'
           width={300.54}
           height={471}
@@ -51,20 +51,20 @@ const About: FC = () => (
       content={data.work}
       extend={{
         title: 'All Works',
-        href: 'https://github.com/harshhhdev',
+        href: 'https://github.com/solomonshalom',
         newTab: true,
       }}
       id='works'
     >
       <h2 className={styles.title}>Select Work</h2>
     </Section>
-    <Section
+    {/*<Section
       content={data.writing}
       extend={{ title: 'All Writing', href: '/writing' }}
       id='writing'
     >
       <h2 className={styles.title}>Select Writing</h2>
-    </Section>
+    </Section>*/}
   </div>
 )
 
@@ -77,7 +77,7 @@ const Map: FC = () => {
       setMap(
         new mapboxgl.Map({
           container: 'mapbox',
-          style: 'mapbox://styles/harshhhdev/clf6is4qj000501mn4j04t7l3',
+          style: 'mapbox://styles/solomonlijo/clm7o80y200zy01qu5gfo3yfd',
           center: center,
           zoom: 11,
         })

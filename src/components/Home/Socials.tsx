@@ -16,45 +16,15 @@ export const Socials: FC = () => {
     <div className={styles.socials}>
       {[
         {
-          aria: 'GitHub',
-          icon: FiGithub,
-          href: 'https://github.com/harshhhdev',
-        },
-        {
-          aria: 'Twitter',
-          icon: FiTwitter,
-          href: 'https://twitter.com/harshhhdev',
-        },
-        {
-          aria: 'Dribbble',
-          icon: FiDribbble,
-          href: 'https://dribbble.com/harshhhdev',
-        },
-        {
           aria: 'Linkedin',
           icon: FiLinkedin,
-          href: 'https://linkedin.com/in/harshhhdev',
-        },
-        {
-          aria: 'YouTube',
-          icon: FiYoutube,
-          href: 'https://www.youtube.com/@harshhhdev',
+          href: 'https://linkedin.com/in/#',
         },
         {
           aria: 'Instagram',
           icon: FiInstagram,
-          href: 'https://www.instagram.com/haaarshsingh',
-        },
-        {
-          aria: 'Discord',
-          icon: RxDiscordLogo,
-          href: 'https://discord.com/users/518432133111611397',
-        },
-        {
-          aria: 'Snapchat',
-          icon: RiSnapchatLine,
-          href: 'https://snapchat.com/add/harshhhhsingh',
-        },
+          href: 'https://www.instagram.com/#',
+        }
       ].map((link, index) => (
         <a
           href={link.href}

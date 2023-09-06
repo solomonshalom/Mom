@@ -28,7 +28,7 @@ const Copy: FC<{ slug: string }> = ({ slug }) => {
 
   const copy = () => {
     setCopied(true)
-    navigator.clipboard.writeText(`https://harshsingh.xyz/writing/${slug}`)
+    navigator.clipboard.writeText(`https://#/writing/${slug}`)
   }
 
   return (

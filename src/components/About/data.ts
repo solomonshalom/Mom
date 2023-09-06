@@ -4,7 +4,7 @@ export const about: Content[] = [
   {
     title: 'Background',
     content:
-      "Born and raised in New Delhi, India. I've been into coding from a young age, and I'm passionate about many creative pursuits, including photography, design, and coding. This combination of interests is what led me to develop skills through guiltlessly exploring my passions and interests. I center my work on teaching/writing to empower, educate and elevate people.",
+      "Born and raised in Dubai, UAE. I've been into coding from a young age, and I'm passionate about many creative pursuits, including photography, design, and coding. This combination of interests is what led me to develop skills through guiltlessly exploring my passions and interests. I center my work on teaching/writing to empower, educate and elevate people.",
   },
   {
     title: 'Skills',
@@ -14,40 +14,16 @@ export const about: Content[] = [
   {
     title: 'Now',
     content:
-      'Student looking for part/full-time internship opportunities or junior positions to work with startups on developing and designing web applications.',
+      'Praying, Writing and Learning.',
   },
 ]
 
 export const work: Content[] = [
   {
-    title: 'kmenu',
+    title: 'Coming Soon',
     content:
-      'An accessible and animated React command menu interface for a refined navigation experience.',
-    href: 'https://kmenu.hxrsh.in',
-    newTab: true,
-  },
-  {
-    title: 'snip',
-    content: 'A lightweight pastebin for sharing text and code snippets.',
-    href: 'https://snip.place',
-    newTab: true,
-  },
-  {
-    title: "Harsh's Lab (WIP)",
-    content: 'Exploring and documenting magical details in user interfaces.',
-    href: 'https://twitter.com/harshhhdev/status/1588705118681468928',
-    newTab: true,
-  },
-  {
-    title: 'Custom Pointer React',
-    content: 'Animated custom cursors for React.',
-    href: 'https://twitter.com/harshhhdev/status/1588705118681468928',
-    newTab: true,
-  },
-  {
-    title: 'dotfiles',
-    content: 'Pastel-themed i3wm and Arch Linux rice.',
-    href: 'https://twitter.com/harshhhdev/status/1588705118681468928',
+      'An exciting journey, waiting to be unveiled',
+    href: '#',
     newTab: true,
   },
 ]

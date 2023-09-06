@@ -64,7 +64,7 @@ const Writing: FC = () => {
         <form className={styles.form}>
           <div>
             <input
-              placeholder='hi.harsh@proton.me'
+              placeholder='shinyduncan@gmail.com'
               type='email'
               spellCheck={false}
             />

@@ -23,27 +23,18 @@ const sohne = localFont({
 })
 
 export const metadata: Metadata = {
-  title: { default: 'Harsh Singh', template: '%s — Harsh Singh' },
-  creator: 'Harsh Singh',
-  publisher: 'Harsh Singh',
-  description: 'Building tools and polished user interactions.',
-  keywords: ['Harsh Singh', 'harshhhdev'],
-  authors: [{ name: 'Harsh Singh', url: 'https://harshsingh.xyz' }],
+  title: { default: 'Shiny Duncan', template: '%s — Shiny Duncan' },
+  creator: 'Shiny Duncan',
+  publisher: 'Shiny Duncan',
+  description: 'Praising God, being a Mother, Writer, & Student.',
+  keywords: ['Shiny Duncan'],
+  authors: [{ name: 'Shiny Duncan', name: 'Solomon Shalom Lijo', url: 'https://solomonlijo.vercel.app' }],
   colorScheme: 'dark light',
   openGraph: {
-    title: 'Harsh Singh',
-    description: 'Building tools and polished user interactions.',
-    url: 'https://harshsingh.xyz',
-    siteName: 'Harsh Singh',
-    images: [
-      { url: 'https://harshsingh.xyz/og.png', width: 1200, height: 630 },
-      {
-        url: 'https://harshsingh.xyz/og-alt.png',
-        width: 1200,
-        height: 630,
-        alt: 'A white background with the text "Harsh Singh" in the center',
-      },
-    ],
+    title: 'Shiny Duncan',
+    description: 'Praising God, being a Mother, Writer, & Student.',
+    url: '#',
+    siteName: 'Shiny Duncan',
     locale: 'en-US',
     type: 'website',
   },
@@ -79,29 +70,17 @@ export const metadata: Metadata = {
     { media: '(prefers-color-scheme: light)', color: '#E5E5E5' },
     { media: '(prefers-color-scheme: dark)', color: '#121212' },
   ],
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Harsh Singh',
-    description: 'Building tools and polished user interactions.',
-    siteId: 'harshhhdev',
-    creator: '@harshhhdev',
-    creatorId: 'harshhhdev',
-    images: {
-      url: 'https://harshsingh.xyz/og.png',
-      alt: 'A black background with noise and "Harsh Singh" written across the center',
-    },
-  },
   verification: {
     google: 'VWhTtgTikPqvWIY4n2rlUj6Fe9YgkfFMEET3TM7Rce0',
     yandex: 'cfc27cbb03eb0a9c',
     yahoo: 'yahoo',
-    other: { me: ['hi.harsh@pm.me'] },
+    other: { me: ['shinyduncan@gmail.com'] },
   },
   alternates: {
-    canonical: 'https://harshsingh.xyz',
-    types: { 'application/rss+xml': 'https://harshsingh.xyz/rss.xml' },
+    canonical: '#',
+    types: { 'application/rss+xml': '#rss.xml' },
   },
-  assets: ['https://harshsingh.xyz/assets.zip'],
+  assets: ['#/assets.zip'],
   category: 'technology',
 }
 

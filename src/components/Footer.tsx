@@ -45,16 +45,16 @@ const Footer: FC = () => {
       <div className={styles.container}>
         <p className={styles.date}>
           <a
-            href='https://en.wikipedia.org/wiki/Dallas%E2%80%93Fort_Worth_metroplex'
+            href='https://en.wikipedia.org/wiki/Karnataka'
             target='_blank'
             rel='noreferrer'
             className={styles.location}
           >
             {typeof size.width !== 'undefined'
               ? size.width > 767
-                ? 'Dallas, TX'
-                : 'DTX'
-              : 'Dallas, Texas'}
+                ? 'Karnataka, IN'
+                : 'KA'
+              : 'Karnataka, India'}
           </a>
           <span className={styles.separator}>•</span>
           {typeof size.width !== 'undefined'
@@ -65,14 +65,14 @@ const Footer: FC = () => {
                   second: 'numeric',
                   day: 'numeric',
                   month: 'short',
-                  timeZone: 'America/Chicago',
+                  timeZone: 'Kolkata/India',
                 })
               : time.toLocaleString('en-US', {
                   hour: 'numeric',
                   minute: 'numeric',
                   day: 'numeric',
                   month: 'numeric',
-                  timeZone: 'America/Chicago',
+                  timeZone: 'Kolkata/India',
                 })
             : time.toLocaleString('en-US', {
                 hour: 'numeric',
@@ -80,7 +80,7 @@ const Footer: FC = () => {
                 second: 'numeric',
                 day: 'numeric',
                 month: 'short',
-                timeZone: 'America/Chicago',
+                timeZone: 'Kolkata/India',
               })}
         </p>
         <div>

@@ -11,7 +11,7 @@ import Photos, { Gallery } from './Photos'
 
 const Home: FC = () => {
   const size: Size = useWindowSize()
-  const [play] = useSound('/pronunciation.mp3')
+  const [play] = useSound('/audio.mp3')
 
   return (
     <div className={styles.wrapper}>
@@ -19,27 +19,24 @@ const Home: FC = () => {
         <div className={styles.info}>
           <div className={styles.headshot}>
             <Image
-              src='https://avatars.githubusercontent.com/u/69592270?v=4'
+              src='/mom_avater2.jpg'
               alt='My face'
               fill={true}
             />
           </div>
-          <h1>Harsh Singh — Developer, Designer, and Student</h1>
+          <h1>Shiny Duncan — Mother, Writer & Student</h1>
           <p className={styles.pronounce}>
-            It's pronounced /HuhRsh siNG/{' '}
-            <button
+            Every Glory Is To Jesus! My Lord and Saviour, Jesus!{' '}
+          </p>
+          <button
               className={styles.play}
-              aria-label='Play name pronounciation'
+              aria-label='Play the Song'
               onClick={play as MouseEventHandler<HTMLButtonElement>}
             >
               <BsVolumeDown />
             </button>
-          </p>
           <p>
-            Painting beautiful interfaces, building tools and crafting polished
-            user interactions that feel delightful to use. Besides that, I take
-            photos, lift weights and I'm interested in Linux, Vim, alongside
-            other random computer things.
+            Praying, Being a Mother, Writing a book (Surprise!) and a Student. Besides that, I love to worship, take a walk and just have fun
           </p>
           <svg
             aria-hidden='true'
@@ -55,20 +52,15 @@ const Home: FC = () => {
             />
           </svg>
           <p>
-            If you're ever near the Dallas-Fort Worth area, let's hang out.
+            Just want to let you know that the truth lies in John 3:16.
             Looking for new opportunities. Reach out at{' '}
             <a
-              href='https://twitter.com/harshhhdev'
+              href='#'
               target='_blank'
               rel='noreferrer'
             >
-              @harshhhdev
+              @shinyduncan
             </a>{' '}
-            or{' '}
-            <a href='mailto:hi.harsh@pm.me' target='_blank' rel='noreferrer'>
-              hi.harsh@pm.me
-            </a>
-            .
           </p>
           <Socials />
         </div>

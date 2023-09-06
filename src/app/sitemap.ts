@@ -2,13 +2,13 @@ import { allPosts } from 'contentlayer/generated';
 
 const Sitemap = () => {
   const posts = allPosts.map((post) => ({
-    url: `https://harshsingh.xyz${post.slug}`,
+    url: `#${post.slug}`,
     lastModified: post.published,
   }));
 
   const routes = ['', '/about', '/writing'].map(
     (route) => ({
-      url: `https://harshsingh.xyz${route}`,
+      url: `#${route}`,
       lastModified: new Date().toISOString().split('T')[0],
     })
   );

@@ -26,7 +26,7 @@ export const generateMetadata: GenerateMetadata = ({ params }) => {
   if (!post) return defaultMetadata
 
   const { title, published: publishedTime, description, slug } = post
-  const image = `https://api.hxrsh.in/api/image?title=${encodeURI(title)}`
+  const image = `#/api/image?title=${encodeURI(title)}`
 
   return {
     title,
@@ -36,7 +36,7 @@ export const generateMetadata: GenerateMetadata = ({ params }) => {
       description,
       type: 'article',
       publishedTime,
-      url: `https://harshsingh.xyz/writing/${slug}`,
+      url: `#/writing/${slug}`,
       images: [{ url: image }],
     },
     twitter: {

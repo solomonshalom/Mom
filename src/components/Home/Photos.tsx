@@ -68,7 +68,7 @@ const Photos: FC = () => (
         className='exclude'
       >
         <Image
-          src={`/photos/@harshhhdev/${index + 1}.jpg`}
+          src={`/photos/@pictures/${index + 1}.jpg`}
           width={265}
           height={325}
           alt={image.alt}
@@ -94,7 +94,7 @@ export const Gallery: FC = () => {
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
           key={page}
-          src={`/photos/@harshhhdev/${imageIndex + 1}.jpg`}
+          src={`/photos/@pictures/${imageIndex + 1}.jpg`}
           alt={images[imageIndex].alt}
           custom={direction}
           variants={variants}

@@ -15,13 +15,13 @@ const Error: NextPage = () => (
           here.
         </p>
         <p>
-          If the link is broken, I&apos;d really appreciate if you tossed me an{' '}
-          <a href='mailto:hi.harsh@pm.me' target='_blank' rel='noreferrer'>
+          If the link is broken, I&apos;d really appreciate if you can toss my son an{' '}
+          <a href='mailto:solomonlijo@skiff.com' target='_blank' rel='noreferrer'>
             email
           </a>{' '}
           or a DM on{' '}
           <a
-            href='https://twitter.com/harshhhdev'
+            href='https://instagram.com/solomonshalom'
             target='_blank'
             rel='noreferrer'
           >
@@ -36,7 +36,7 @@ const Error: NextPage = () => (
         </p>
         <div className={styles.image}>
           <Image
-            src='/photos/@harshhhdev/5.jpg'
+            src='/photos/@pictures/5.jpg'
             alt='A tortoise on the sidewalk'
             draggable={false}
             priority
