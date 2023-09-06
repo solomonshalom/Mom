@@ -65,14 +65,14 @@ const Footer: FC = () => {
                   second: 'numeric',
                   day: 'numeric',
                   month: 'short',
-                  timeZone: 'Kolkata/India',
+                  timeZone: 'Asia/Kolkata',
                 })
               : time.toLocaleString('en-US', {
                   hour: 'numeric',
                   minute: 'numeric',
                   day: 'numeric',
                   month: 'numeric',
-                  timeZone: 'Kolkata/India',
+                  timeZone: 'Asia/Kolkata',
                 })
             : time.toLocaleString('en-US', {
                 hour: 'numeric',
@@ -80,7 +80,7 @@ const Footer: FC = () => {
                 second: 'numeric',
                 day: 'numeric',
                 month: 'short',
-                timeZone: 'Kolkata/India',
+                timeZone: 'Asia/Kolkata',
               })}
         </p>
         <div>

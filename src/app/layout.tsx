@@ -1,7 +1,6 @@
 import '@css/globals.css'
 import type { Metadata } from 'next'
 import { Root } from '@components/Layout'
-import AnalyticsWrapper from '@components/.../analytics'
 import Nav from '@components/Nav'
 import Footer from '@components/Footer'
 import BackToTop from '@components/BackToTop'
@@ -91,7 +90,6 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
       <Root>{children}</Root>
       <BackToTop />
       <Footer />
-      <AnalyticsWrapper />
     </body>
   </html>
 )
