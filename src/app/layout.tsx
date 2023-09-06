@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   publisher: 'Shiny Duncan',
   description: 'Praising God, being a Mother, Writer, & Student.',
   keywords: ['Shiny Duncan'],
-  authors: [{ name: 'Shiny Duncan', name: 'Solomon Shalom Lijo', url: 'https://solomonlijo.vercel.app' }],
+  authors: [{ name: 'Shiny Duncan'}],
   colorScheme: 'dark light',
   openGraph: {
     title: 'Shiny Duncan',
