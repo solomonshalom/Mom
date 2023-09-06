@@ -20,7 +20,7 @@ const About: FC = () => (
     <div className={styles.container}>
       <div className={styles.image}>
         <Image
-          src='/mom_avater.jpg'
+          src='/mom_avater-new.jpg'
           alt='My face'
           width={300.54}
           height={471}
