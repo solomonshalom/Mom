@@ -27,14 +27,15 @@ const Home: FC = () => {
           <h1>Shiny Duncan — Mother, Writer & Student</h1>
           <p className={styles.pronounce}>
             Every Glory Is To Jesus! My Lord and Saviour, Jesus!
-          </p>
-          <button
+            {' '}
+            <button
               className={styles.play}
               aria-label='Play the Song'
               onClick={play as MouseEventHandler<HTMLButtonElement>}
             >
               <BsVolumeDown />
             </button>
+            </p>
           <p>
             Praying, Being a Mother, Writing a book (Surprise!) and a Student. Besides that, I love to worship, take a walk and just have fun
           </p>

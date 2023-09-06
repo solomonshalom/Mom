@@ -42,36 +42,7 @@ const Writing: FC = () => {
         <div>
           <h1>Writing</h1>
           <p>Learning things, and then teaching others.</p>
-          {data ? (
-            <div className={styles.info}>
-              <div className={styles.box}>
-                <FiEye />
-                <p>{data.views.toLocaleString()} views</p>
-              </div>
-              <div className={styles.box}>
-                <FiUser />
-                <p>{data.followers.toLocaleString()} subscribers</p>
-              </div>
-            </div>
-          ) : (
-            <div
-              className={styles.loading}
-              aria-busy='true'
-              aria-live='polite'
-            />
-          )}
         </div>
-        <form className={styles.form}>
-          <div>
-            <input
-              placeholder='shinyduncan@gmail.com'
-              type='email'
-              spellCheck={false}
-            />
-            <button>Subscribe</button>
-          </div>
-          <p>Be notified of new posts. No spam.</p>
-        </form>
       </div>
       <Posts />
     </div>
