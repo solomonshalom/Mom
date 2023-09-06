@@ -34,7 +34,7 @@ const Post: FC<Post> = (props) => (
 )
 
 const Writing: FC = () => {
-  const { data } = useSWR<Dev>('/api/dev', fetcher, config)
+  const { data } = useSWR<Dev>(fetcher, config)
 
   return (
     <div className={styles.container}>

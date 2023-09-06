@@ -22,18 +22,18 @@ const sohne = localFont({
 })
 
 export const metadata: Metadata = {
-  title: { default: 'Shiny Duncan', template: '%s — Shiny Duncan' },
-  creator: 'Shiny Duncan',
-  publisher: 'Shiny Duncan',
-  description: 'Praising God, being a Mother, Writer, & Student.',
-  keywords: ['Shiny Duncan'],
-  authors: [{ name: 'Shiny Duncan'}],
+  title: { default: 'Shiny Lijo', template: '%s — Shiny Lijo' },
+  creator: 'Shiny Lijo',
+  publisher: 'Shiny Lijo',
+  description: 'Praising God, being a Mother & Author',
+  keywords: ['Shiny Lijo'],
+  authors: [{ name: 'Shiny Lijo'}],
   colorScheme: 'dark light',
   openGraph: {
-    title: 'Shiny Duncan',
-    description: 'Praising God, being a Mother, Writer, & Student.',
+    title: 'Shiny Lijo',
+    description: 'Praising God, being a Mother & Author',
     url: '#',
-    siteName: 'Shiny Duncan',
+    siteName: 'Shiny Lijo',
     locale: 'en-US',
     type: 'website',
   },

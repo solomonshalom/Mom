@@ -24,9 +24,9 @@ const Home: FC = () => {
               fill={true}
             />
           </div>
-          <h1>Shiny Duncan — Mother, Writer & Student</h1>
+          <h1>Shiny Lijo — Mother & Author</h1>
           <p className={styles.pronounce}>
-            Every Glory Is To Jesus! My Lord and Saviour, Jesus!
+            Every Glory Is To My Lord and Saviour, Jesus!
             {' '}
             <button
               className={styles.play}
@@ -54,13 +54,13 @@ const Home: FC = () => {
           </svg>
           <p>
             Just want to let you know that the truth lies in John 3:16.
-            Looking for new opportunities, Reach out at{' '}
+           Want to say Hi or have a Cool Idea to discuss?, Reach out at{' '}
             <a
-              href='#'
+              href='mailto:shinyduncan@gmail.com'
               target='_blank'
               rel='noreferrer'
             >
-              @shinyduncan
+              shinyduncan@gmail.com
             </a>{' '}
           </p>
           <Socials />
